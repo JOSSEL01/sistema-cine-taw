@@ -120,36 +120,36 @@ Cuando el servidor inicie sin errores:
 
 ### 1. Documentación en Scalar y Operaciones CRUD
 - **01 — Módulos en Scalar:**
-  ![Módulos en Scalar](docs/capturas/01-scalar-modulos.png)[cite: 3]
+  ![Módulos en Scalar](docs/capturas/01-scalar-modulos.png)
 - **02 — Crear sala (`POST` → `201 Created`):**
-  ![POST Salas 201](docs/capturas/02-post-salas-201.png)[cite: 3]
+  ![POST Salas 201](docs/capturas/02-post-salas-201.png)
 - **03 — Consultar películas (`GET`):**
-  ![GET Películas](docs/capturas/03-get-peliculas.png)[cite: 3]
+  ![GET Películas](docs/capturas/03-get-peliculas.png)
 - **04 — Consultar funciones (`GET`):**
-  ![GET Funciones](docs/capturas/04-get-funciones.png)[cite: 3]
+  ![GET Funciones](docs/capturas/04-get-funciones.png)
 - **05 — Consultar boletos (`GET`):**
-  ![GET Boletos](docs/capturas/05-get-boletos.png)[cite: 3]
+  ![GET Boletos](docs/capturas/05-get-boletos.png)
 - **06 — Actualizar registro (`PATCH` → `200 OK`):**
-  ![PATCH 200](docs/capturas/06-patch-200.png)[cite: 3]
+  ![PATCH 200](docs/capturas/06-patch-200.png)
 - **07 — Error de validación (`400 Bad Request`):**
-  ![Error 400](docs/capturas/07-error-400.png)[cite: 3]
+  ![Error 400](docs/capturas/07-error-400.png)
 - **08 — Recurso no encontrado (`404 Not Found`):**
-  ![Error 404](docs/capturas/08-error-404.png)[cite: 3]
+  ![Error 404](docs/capturas/08-error-404.png)
 - **09 — Eliminación / Borrado (`DELETE` → `200 OK`):**
-  ![DELETE 200](docs/capturas/09-delete-200.png)[cite: 3]
+  ![DELETE 200](docs/capturas/09-delete-200.png)
 
 ### 2. Base de Datos y Borrado Lógico (pgAdmin 4)
 - **10 — Tablas en pgAdmin 4:**
-  ![Tablas en pgAdmin 4](docs/capturas/10-pgadmin-tablas.png)[cite: 3]
+  ![Tablas en pgAdmin 4](docs/capturas/10-pgadmin-tablas.png)
 - **11 — Borrado lógico (Soft Delete) en pgAdmin 4:**
-  ![Soft Delete en pgAdmin 4](docs/capturas/11-pgadmin-soft-delete.png)[cite: 3]
+  ![Soft Delete en pgAdmin 4](docs/capturas/11-pgadmin-soft-delete.png)
 
 ### 3. Extra — Autenticación con JWT
 - **12 — Registro de usuario (`POST /auth/register` → `201 Created`):**
-  ![POST Auth Register 201](docs/capturas/12-post-auth-register-201.png)[cite: 1, 3]
+  ![POST Auth Register 201](docs/capturas/12-post-auth-register-201.png)
 - **13 — Inicio de sesión y obtención de `access_token` (`POST /auth/login`):**
-  ![POST Auth Login Token](docs/capturas/13-post-auth-login-token.png)[cite: 1, 3]
+  ![POST Auth Login Token](docs/capturas/13-post-auth-login-token.png)
 - **14 — Acceso denegado sin token (`401 Unauthorized`):**
-  ![Error 401 sin token](docs/capturas/14-error-401-sin-token.png)[cite: 1, 3]
+  ![Error 401 sin token](docs/capturas/14-error-401-sin-token.png)
 - **15 — Petición protegida exitosa usando `Bearer` token en Scalar:**
-  ![Petición autorizada con Bearer](docs/capturas/15-auth-bearer-exito.png)[cite: 1, 3]
+  ![Petición autorizada con Bearer](docs/capturas/15-auth-bearer-exito.png)
